@@ -25,7 +25,6 @@ public class NewLinkedList<T> {
         return size;
     }
 
-    //
     private void linkLast(T t) {
         Node<T> last = lastNode;
         Node<T> newNode = new Node<>(last, t, null);
